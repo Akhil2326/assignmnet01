@@ -1,7 +1,7 @@
 package com.bridgelabz.oops.levelone;
 
 class Employee {
-    // non-static variables
+    // Non-static variables
     String name;
     int id;
     double salary;
@@ -14,3 +14,10 @@ class Employee {
     }
 
     // Method to display employee details
+    void displayDetails() {
+        System.out.println("Employee Details:");
+        System.out.println("Name: " + name);
+        System.out.println("ID: " + id);
+        System.out.println("Salary: ₹" + salary);
+    }
+}
